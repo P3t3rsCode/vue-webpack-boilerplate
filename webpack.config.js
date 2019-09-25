@@ -22,7 +22,7 @@ module.exports = {
           {
             loader: "sass-loader",
             options: {
-              includePaths: ["./node_modules",'./src/styles']
+              includePaths: ["./node_modules", "./src/styles"]
             }
           }
         ]
@@ -66,8 +66,8 @@ module.exports = {
   resolve: {
     alias: {
       vue$: "vue/dist/vue.esm.js",
-      mixins: path.resolve(__dirname, "../src/styles/mixins.scss"),
-      variables: path.resolve(__dirname, "../src/styles/_variables.scss")
+      mixins: path.resolve(__dirname, "src/styles/mixins.scss"),
+      variables: path.resolve(__dirname, "src/styles/variables.scss")
     },
     extensions: ["*", ".js", ".vue", ".json"]
   },

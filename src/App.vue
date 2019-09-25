@@ -16,8 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./styles/breakpoints.scss";
-@import "./styles/variables.scss";
+@import "~variables";
+@import "~mixins";
 #app {
   background: green;
   @include breakpoint($small) {
